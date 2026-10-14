@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Osmo Launcher installer - no root needed.
 set -euo pipefail
-REPO="YOURUSER/osmo-launcher"   # <- change to your GitHub user/repo
+REPO="brendenthebanana-hash/Osmo-Launcher"   # <- change to your GitHub user/repo
 DIR="$HOME/.local/share/osmo-launcher"
 BIN="$HOME/.local/bin"
 APPS="$HOME/.local/share/applications"
