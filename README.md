@@ -37,7 +37,7 @@ Keys: `bg`, `panel`, `card`, `text`, `muted`, `accent`, `accent_text`.
 
 ### `ImportError: libgthread-2.0.so.0: cannot open shared object file`
 
-Qt needs the system glib library. Pick one fix.
+The installer now fetches this automatically. If you installed an older version, re-run the install command. To fix it by hand, pick one:
 
 **No root (works anywhere):**
 
@@ -72,10 +72,6 @@ Common extras: `libxcb-cursor0`, `libxkbcommon-x11-0`, `libgl1`.
 ### 404 right after editing files on GitHub
 
 GitHub's raw links can serve the old version for a few minutes. Wait about 5 minutes and try again.
-
-### A game won't start after using the no-root fix
-
-The fix puts extra libraries on `LD_LIBRARY_PATH`, which Steam can inherit. Open an issue and it can be cleared before launching.
 
 ## Uninstall
 
