@@ -2,7 +2,7 @@
 A water-themed (blue & white) launcher for your installed Steam games. Linux, no root.
 
 ## Install
-    curl -fsSL https://raw.githubusercontent.com/YOURUSER/osmo-launcher/main/install.sh | bash
+    curl -fsSL https://github.com/brendenthebanana-hash/Osmo-Launcher.git
 Then run `osmo-launcher` or find it in your app menu.
 
 ## Features
